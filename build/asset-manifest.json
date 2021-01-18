@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/site/static/js/main.47a2924e.chunk.js",
+    "main.js.map": "/site/static/js/main.47a2924e.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.26104731.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.26104731.js.map",
+    "static/js/2.738fd0fa.chunk.js": "/site/static/js/2.738fd0fa.chunk.js",
+    "static/js/2.738fd0fa.chunk.js.map": "/site/static/js/2.738fd0fa.chunk.js.map",
+    "static/js/3.0e4b484b.chunk.js": "/site/static/js/3.0e4b484b.chunk.js",
+    "static/js/3.0e4b484b.chunk.js.map": "/site/static/js/3.0e4b484b.chunk.js.map",
+    "index.html": "/site/index.html",
+    "static/js/2.738fd0fa.chunk.js.LICENSE.txt": "/site/static/js/2.738fd0fa.chunk.js.LICENSE.txt",
+    "static/media/Github.0abeab19.svg": "/site/static/media/Github.0abeab19.svg",
+    "static/media/Java.770cf29d.svg": "/site/static/media/Java.770cf29d.svg",
+    "static/media/Javascript.725adb3c.svg": "/site/static/media/Javascript.725adb3c.svg",
+    "static/media/Linkedin.d183bb91.svg": "/site/static/media/Linkedin.d183bb91.svg",
+    "static/media/My Pic.b3580cd0.svg": "/site/static/media/My Pic.b3580cd0.svg",
+    "static/media/Python.c78f1962.svg": "/site/static/media/Python.c78f1962.svg",
+    "static/media/Swift_logo.388dd0d8.svg": "/site/static/media/Swift_logo.388dd0d8.svg",
+    "static/media/Twitter.0fa93f9d.svg": "/site/static/media/Twitter.0fa93f9d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26104731.js",
+    "static/js/2.738fd0fa.chunk.js",
+    "static/js/main.47a2924e.chunk.js"
+  ]
+}

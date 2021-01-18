@@ -12,6 +12,9 @@ import Javascript from '../../assets/Javascript.svg';
 import Java from '../../assets/Java.svg';
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
   titleText: {
    ...theme.titleText,
     [theme.breakpoints.down("md")]: {
@@ -21,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "2.5rem"
     },
     [theme.breakpoints.down("xs")]: {
-      fontSize: "1.20rem"
+      fontSize: "2.0rem"
     },
   },
 
@@ -46,15 +49,29 @@ const useStyles = makeStyles((theme) => ({
   comingSoonText: {
     ...theme.otherFont,
     fontSize: "4rem"
+  },
+  images: {
+    [theme.breakpoints.down("md")]: {
+      height: "75px",
+      width: "75px"
+    },
+    [theme.breakpoints.down("sm")]: {
+      height: "70px",
+      width: "70px"
+    },
+    [theme.breakpoints.down("xs")]: {
+      height: "65px",
+      width: "65px"
+    },
   }
 }));
 
 export default function Projects() {
   const classes = useStyles();
-  const isSmallScreen = useMediaQuery(theme => theme.breakpoints.down("xs"));
+  const isExtraSmallScreen = useMediaQuery(theme => theme.breakpoints.down("xs"));
 
   return (
-    <div>
+    <div className={classes.root}>
       <br/>
       <br/>
       <br/>
@@ -74,59 +91,89 @@ export default function Projects() {
         <Grid item>
           <Grid 
             container
-            direction={isSmallScreen ? "column": "row"}
+            direction={isExtraSmallScreen ? "column": "row"}
             justify="center"
             alignItems="center"
             spacing={3}>
             <Grid item>
-                <Paper className={classes.paper}>
-                 <Box p={2}>
-                      <a href="https://github.com/p-cap/resolution2021" style={{ textDecoration: 'none'}}>
-                        <img alt="Swift" src={Swift} />
-                        <img alt="Python" src={Python} />
-                        <img alt="Javascript" src={Javascript} />
-                        <img alt="Java" src={Java} />
-                        <br/>
-                        <br/>
-                        <Typography color="primary" align="center">
-                              <Typography className={classes.synopsisText}>Resolution 2021 </Typography><br/>
-                              Swift / SwiftUi mobile applications <br/>
-                              Data Structures and Algorithms with Python, Java and Javascript <br/>
-                              SYNOPSIS: This repo consists of small snippets of code for practice.
-                              Quantitative practice leads to qualitative results <br/>
-                        </Typography>
-                        </a>
-                  </Box>
-                </Paper>
+                  <Grid 
+                    container="column"
+                    justify="center"
+                    alignItems="center"
+                    spacing={2}
+                    >                
+                    <Paper className={classes.paper}>
+                      <Box p={1}>
+                        <a href="https://github.com/p-cap/resolution2021" style={{ textDecoration: 'none'}}>
+                          <Grid item>
+                                  <Grid 
+                                    container
+                                    justify="center"
+                                    alignItems="center"
+                                  >
+                                      <img alt="Swift" src={Swift} className={classes.images}/>
+                                      <img alt="Python" src={Python} className={classes.images} />
+                                      <img alt="Javascript" src={Javascript} className={classes.images}/>
+                                      <img alt="Java" src={Java} className={classes.images}/>
+                                  </Grid>
+                          </Grid>
+                          <Grid item>
+                                <Typography color="primary" align="center">
+                                      <Typography className={classes.synopsisText}>Resolution 2021 </Typography><br/>
+                                      Swift / SwiftUi mobile applications <br/>
+                                      Data Structures and Algorithms with Python, Java and Javascript <br/>
+                                      SYNOPSIS: This repo consists of small snippets of code for practice.
+                                      Quantitative practice leads to qualitative results <br/>
+                                </Typography>
+                           </Grid>
+                          </a>
+                          </Box>
+                        </Paper>
+                   </Grid>
             </Grid>
             <Grid item>
-              <Paper className={classes.paper} >
-                <Box p={8}>
-                  <Typography 
-                    color="primary" 
-                    align="center"
-                    className={classes.comingSoonText}
+            <Grid item>
+                <Grid 
+                    container
+                    justifyContent="center"
+                    alignItems="center"
                     >
-                      Coming Soon ;=)</Typography>   
-                </Box>
-              </Paper>
+                    <Grid item>
+                        <Paper className={classes.paper} >
+                          <Typography 
+                            color="primary" 
+                            align="center"
+                            className={classes.comingSoonText}
+                            >
+                            Coming Soon ;=)
+                            </Typography>
+                        </Paper>
+                      </Grid> 
+                  </Grid>
+              </Grid>
             </Grid>
             <Grid item>
-              <Paper className={classes.paper} >
-              <Box 
-                p={8}>
-                  <Typography 
-                    color="primary" 
-                    align="center"
-                    className={classes.comingSoonText}
+                <Grid 
+                    container
+                    justifyContent="center"
+                    alignItems="center"
                     >
-                      Coming Soon ;=)</Typography>   
-                </Box>
-              </Paper>
+                    <Grid item>
+                        <Paper className={classes.paper} >
+                          <Typography 
+                            color="primary" 
+                            align="center"
+                            className={classes.comingSoonText}
+                            >
+                            Coming Soon ;=)
+                            </Typography>
+                        </Paper>
+                      </Grid> 
+                  </Grid>
+              </Grid>
             </Grid>
           </Grid>
-        </Grid>
-      </Grid>
+          </Grid>
     </div>
     )
 }

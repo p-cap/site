@@ -12,10 +12,10 @@ import Resume from './routes/Resume';
 import CallMe from './routes/Email';
 
 // icons
-import PhoneIcon from '@material-ui/icons/Phone';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
 import DesktopMacRoundedIcon from '@material-ui/icons/DesktopMacRounded';
 import PictureAsPdfOutlinedIcon from '@material-ui/icons/PictureAsPdfOutlined';
+import EmailIcon from '@material-ui/icons/Email';
 
 // Routing
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
@@ -44,14 +44,12 @@ export default function Bar() {
               value={value}
               onChange={handleChange}
               variant="fullWidth"
-              indicatorColor="primary"
-              textColor="primary"
               aria-label="icon tabs example"
             >
               <Tab icon={<PersonPinIcon />} component={Link} to="/me" aria-label="person" label={isSmallScreen ? null : "Me"}/>
               <Tab icon={<DesktopMacRoundedIcon />} component={Link} to="/projects" aria-label="mac" label={isSmallScreen ? null : "Projects"}/>
               <Tab icon={<PictureAsPdfOutlinedIcon />} component={Link} to="/resume" aria-label="pdf" label={isSmallScreen ? null : "Resume"}/>
-              <Tab icon={<PhoneIcon />} component={Link} to="/email" aria-label="e-mail" label={isSmallScreen ? null : "e-Mail"}/>
+              <Tab icon={<EmailIcon />} component={Link} to="/email" aria-label="e-mail" label={isSmallScreen ? null : "e-Mail"}/>
             </Tabs>
         </Paper>
         <Switch>

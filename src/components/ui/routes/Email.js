@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography} from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
-import { useMediaQuery } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   titleText: {
@@ -36,7 +35,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CallMe() {
   const classes = useStyles()
-  const isSmallScreen = useMediaQuery(theme => theme.breakpoints.down("xs"))
 
   return (
     <div>
@@ -54,7 +52,9 @@ export default function CallMe() {
               <Typography variant="h2" className={classes.titleText}>e-Mail</Typography>
           </Grid>
           <Grid item>
-                <Typography variant="h3" className={classes.emailText}>slashedeye@yahoo.com</Typography>      
+                <a href="mailto:slashedeye@yahoo.com">
+                <Typography variant="h3" className={classes.emailText}>slashedeye@yahoo.com</Typography> 
+                </a>     
           </Grid>
         </Grid>
       </div>

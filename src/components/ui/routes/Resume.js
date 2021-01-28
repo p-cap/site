@@ -75,7 +75,7 @@ export default function Resume() {
                                     <Typography variant="subtitle1" className={classes.jobItem}>
                                         <li>{info.jobItem1}</li>
                                         { info.jobItem2 === undefined ?  null : <li>{info.jobItem2}</li> }
-                                        { info.jobItem3 === undefined ?  null : <li>{info.jobItem2}</li> }
+                                        { info.jobItem3 === undefined ?  null : <li>{info.jobItem3}</li> }
     
                                     </Typography>
                             </Box>

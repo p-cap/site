@@ -20,9 +20,9 @@ export const ResumeInfo = [
         jobTitle: "Course Director, Offensive and Defensive Cyber Courses",
         location: "Hurlburt Field, FL ",
         timeFrame: "Oct 2015 – Oct 2018",
-        jobItem1: "managed 34 Schoolhouse 63 offensive and defensive cyber warfare classes to 1300 students annually",
-        jobItem2: "Edited 600 hours of cyber course content saving our organization $1.5M  (202 crs hours)",
-        jobItem3: "Recognized as “Superior Performer” during the 2018 Annual Wing Compliance resulting into “Highly Effective” rating for my organization (29 Critical Programs)Awarded Top Performer for '19 Military Exercise"
+        jobItem1: "managed 63 offensive and defensive cyber warfare classes to 1300 students annually",
+        jobItem2: "Edited 600 hours of cyber course content saving our organization $1.5M / 202 course hours",
+        jobItem3: "Recognized as “Superior Performer” during the 2018 Annual Wing Compliance resulting into “Highly Effective” rating for my organization (29 Critical Programs)"
     },
     {
         jobTitle: "Air Force Cyber Defense Operator",
@@ -41,20 +41,20 @@ export const ResumeInfo = [
 ]
 
 export const Certifications = [
-     "Bachelor's Degree in Cybersecurity",
-     "GIAC Advisory Board Member",
-     "GIAC Cyber Threat Intelligence",
-     "GIAC Forensics Analyst",
-     "GIAC Certified Incident Handler",
+    "Bachelor's Degree in Cybersecurity",
+    "GIAC Advisory Board Member",
+    "GIAC Cyber Threat Intelligence",
+    "GIAC Forensics Analyst",
+    "GIAC Certified Incident Handler",
     "GIAC Security Essentials"
 ]
 
 export const Volunteer = [
-        "Speaker, 5th Annual Cyber Southwest Symposium (2020)",
-        "2x Guest for KVOI 1030’s Law Matters (2020)", 
-        "Operations, AFCEA International",
-        "Taught middle school students a 5-day Cyber Camp program for Cyber Patriot Organization",
-        "Competed in the 2019 National Cyber League gardening top 5% of the Silver Division"
+    "Speaker, 5th Annual Cyber Southwest Symposium (2020)",
+    "2x Guest for KVOI 1030’s Law Matters (2020)", 
+    "Operations, AFCEA International",
+    "Taught middle school students a 5-day Cyber Camp program for Cyber Patriot Organization",
+    "Competed in the 2019 National Cyber League gardening top 5% of the Silver Division"
 ]
 
 

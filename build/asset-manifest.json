@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/site/static/js/main.c76f040b.chunk.js",
-    "main.js.map": "/site/static/js/main.c76f040b.chunk.js.map",
+    "main.js": "/site/static/js/main.b01629b5.chunk.js",
+    "main.js.map": "/site/static/js/main.b01629b5.chunk.js.map",
     "runtime-main.js": "/site/static/js/runtime-main.26104731.js",
     "runtime-main.js.map": "/site/static/js/runtime-main.26104731.js.map",
     "static/js/2.738fd0fa.chunk.js": "/site/static/js/2.738fd0fa.chunk.js",
@@ -11,17 +11,17 @@
     "index.html": "/site/index.html",
     "static/js/2.738fd0fa.chunk.js.LICENSE.txt": "/site/static/js/2.738fd0fa.chunk.js.LICENSE.txt",
     "static/media/Github.0abeab19.svg": "/site/static/media/Github.0abeab19.svg",
-    "static/media/Java.770cf29d.svg": "/site/static/media/Java.770cf29d.svg",
-    "static/media/Javascript.725adb3c.svg": "/site/static/media/Javascript.725adb3c.svg",
     "static/media/Linkedin.d183bb91.svg": "/site/static/media/Linkedin.d183bb91.svg",
+    "static/media/Material_ui.b2087806.svg": "/site/static/media/Material_ui.b2087806.svg",
     "static/media/My Pic.b3580cd0.svg": "/site/static/media/My Pic.b3580cd0.svg",
-    "static/media/Python.c78f1962.svg": "/site/static/media/Python.c78f1962.svg",
-    "static/media/Swift_logo.388dd0d8.svg": "/site/static/media/Swift_logo.388dd0d8.svg",
+    "static/media/Python.35f4d011.svg": "/site/static/media/Python.35f4d011.svg",
+    "static/media/Springboot.9a8fcf02.svg": "/site/static/media/Springboot.9a8fcf02.svg",
+    "static/media/Swift_logo.b4791aae.svg": "/site/static/media/Swift_logo.b4791aae.svg",
     "static/media/Twitter.0fa93f9d.svg": "/site/static/media/Twitter.0fa93f9d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.26104731.js",
     "static/js/2.738fd0fa.chunk.js",
-    "static/js/main.c76f040b.chunk.js"
+    "static/js/main.b01629b5.chunk.js"
   ]
 }

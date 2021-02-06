@@ -111,12 +111,18 @@ export default function Projects() {
                                       alignItems="center"
                                       >
                                       <Box p={3}>
-                                        {title == "Data Structure and Algo" ? 
+                                        { (title === "Data Structure and Algo") ? 
                                               <a href="https://github.com/p-cap/algo-data-structures">
-                                                 <img alt="Image" src={Images[index]} className={classes.images}/>
-                                              </a> :
-                                                 <img alt="Image" src={Images[index]} className={classes.images}/>
+                                                 <img alt="Data Structure and Aglo with Python" src={Images[index]} className={classes.images}/>
+                                              </a> 
+                                           : (title === "Swift/UI") ? 
+                                              <a href="https://github.com/p-cap/Swift-SwiftUI">
+                                                <img alt="IOS development" src={Images[index]} className={classes.images}/>
+                                              </a> 
+                                              :
+                                              <img alt="The rest for now" src={Images[index]} className={classes.images}/>
                                           }
+    
                                       </Box>
                                     </Grid>
                                   </Grid>

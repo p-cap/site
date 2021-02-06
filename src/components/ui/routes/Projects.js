@@ -111,7 +111,12 @@ export default function Projects() {
                                       alignItems="center"
                                       >
                                       <Box p={3}>
-                                      <img alt="Image" src={Images[index]} className={classes.images}/>
+                                        {title == "Data Structure and Algo" ? 
+                                              <a href="https://github.com/p-cap/algo-data-structures">
+                                                 <img alt="Image" src={Images[index]} className={classes.images}/>
+                                              </a> :
+                                                 <img alt="Image" src={Images[index]} className={classes.images}/>
+                                          }
                                       </Box>
                                     </Grid>
                                   </Grid>

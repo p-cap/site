@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.js": "/site/static/js/main.0ba7c314.chunk.js",
-    "main.js.map": "/site/static/js/main.0ba7c314.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.e7fd8520.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.e7fd8520.js.map",
-    "static/js/2.149ae202.chunk.js": "/site/static/js/2.149ae202.chunk.js",
-    "static/js/2.149ae202.chunk.js.map": "/site/static/js/2.149ae202.chunk.js.map",
-    "static/js/3.fd21c27c.chunk.js": "/site/static/js/3.fd21c27c.chunk.js",
-    "static/js/3.fd21c27c.chunk.js.map": "/site/static/js/3.fd21c27c.chunk.js.map",
+    "main.js": "/site/static/js/main.d0662947.chunk.js",
+    "main.js.map": "/site/static/js/main.d0662947.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.26104731.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.26104731.js.map",
+    "static/js/2.738fd0fa.chunk.js": "/site/static/js/2.738fd0fa.chunk.js",
+    "static/js/2.738fd0fa.chunk.js.map": "/site/static/js/2.738fd0fa.chunk.js.map",
+    "static/js/3.0e4b484b.chunk.js": "/site/static/js/3.0e4b484b.chunk.js",
+    "static/js/3.0e4b484b.chunk.js.map": "/site/static/js/3.0e4b484b.chunk.js.map",
     "index.html": "/site/index.html",
-    "static/js/2.149ae202.chunk.js.LICENSE.txt": "/site/static/js/2.149ae202.chunk.js.LICENSE.txt",
-    "static/media/Github.828838bc.svg": "/site/static/media/Github.828838bc.svg",
-    "static/media/Linkedin.fb763c85.svg": "/site/static/media/Linkedin.fb763c85.svg",
+    "static/js/2.738fd0fa.chunk.js.LICENSE.txt": "/site/static/js/2.738fd0fa.chunk.js.LICENSE.txt",
+    "static/media/Github.0abeab19.svg": "/site/static/media/Github.0abeab19.svg",
+    "static/media/Linkedin.d183bb91.svg": "/site/static/media/Linkedin.d183bb91.svg",
     "static/media/Material_ui.b2087806.svg": "/site/static/media/Material_ui.b2087806.svg",
-    "static/media/My Pic.6bf3548d.svg": "/site/static/media/My Pic.6bf3548d.svg",
-    "static/media/Python.a7beadf5.svg": "/site/static/media/Python.a7beadf5.svg",
+    "static/media/My Pic.b3580cd0.svg": "/site/static/media/My Pic.b3580cd0.svg",
+    "static/media/Python.35f4d011.svg": "/site/static/media/Python.35f4d011.svg",
     "static/media/Springboot.9a8fcf02.svg": "/site/static/media/Springboot.9a8fcf02.svg",
-    "static/media/Swift_logo.8fa1feeb.svg": "/site/static/media/Swift_logo.8fa1feeb.svg",
-    "static/media/Twitter.ad87ef95.svg": "/site/static/media/Twitter.ad87ef95.svg"
+    "static/media/Swift_logo.b4791aae.svg": "/site/static/media/Swift_logo.b4791aae.svg",
+    "static/media/Twitter.0fa93f9d.svg": "/site/static/media/Twitter.0fa93f9d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7fd8520.js",
-    "static/js/2.149ae202.chunk.js",
-    "static/js/main.0ba7c314.chunk.js"
+    "static/js/runtime-main.26104731.js",
+    "static/js/2.738fd0fa.chunk.js",
+    "static/js/main.d0662947.chunk.js"
   ]
 }

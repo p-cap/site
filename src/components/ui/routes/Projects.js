@@ -119,6 +119,10 @@ export default function Projects() {
                                               <a href="https://github.com/p-cap/Swift-SwiftUI">
                                                 <img alt="IOS development" src={Images[index]} className={classes.images}/>
                                               </a> 
+                                              : (title === "Material-UI") ? 
+                                              <a href="https://github.com/p-cap/Material-UI">
+                                                <img alt="FrontEnd Development with Material-UI" src={Images[index]} className={classes.images}/>
+                                              </a> 
                                               :
                                               <img alt="The rest for now" src={Images[index]} className={classes.images}/>
                                           }

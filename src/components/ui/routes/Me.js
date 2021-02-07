@@ -92,13 +92,14 @@ export default function Me() {
               >
               <img alt="test" src={MyPic} />
                   <Typography className={classes.centeredText}>
-                    Striving to bridge the gap 
-                    <br/>
-                    between    
-                    <br/>
-                    software development and security
-                    <br/>
-                    .....1 bit at a time
+                    = Enabling Open Source Security =
+                    <br />
+                    = Responsive Design in mind =                   
+                    <br />
+                    = Data Correlation through UI / UX Design =
+                    <br />                    
+                    = Building Products for Engineers / Analysts =
+                    <br />              
                   </Typography>
           </Grid>
           <Grid 
@@ -109,7 +110,7 @@ export default function Me() {
               spacing={5}
               >         
                 <Grid item>
-                  <a href="https://www.linkedin.com/in/paul-capili-a56b2315b">
+                  <a href="https://www.linkedin.com/in/p-cap/">
                     <img alt="pcap LinkedIn" src={LinkedIn} className={classes.personalLinks} ></img>
                   </a>
                 </Grid>

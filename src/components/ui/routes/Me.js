@@ -34,16 +34,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xl")]: {
       top: "4rem",
     },
-    // [theme.breakpoints.down("xs")]: {
-    //   top: "20px",
-    // },
     left: "0px",
     width: "100%",
     fontWeight: "500",
     fontSize: "2rem",
-    // [theme.breakpoints.down("sm")]: {
-    //   fontSize: "1.5rem",
-    // },
     [theme.breakpoints.down("xs")]: {
       fontSize: "1.0rem",
       top: "100px"

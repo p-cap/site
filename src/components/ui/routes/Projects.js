@@ -123,8 +123,12 @@ export default function Projects() {
                                               <a href="https://github.com/p-cap/Material-UI">
                                                 <img alt="FrontEnd Development with Material-UI" src={Images[index]} className={classes.images}/>
                                               </a> 
-                                              :
-                                              <img alt="The rest for now" src={Images[index]} className={classes.images}/>
+                                              : (title === "Spring") ? 
+                                              <a href="https://github.com/p-cap/Spring-repo">
+                                                <img alt="Web application development with Spring" src={Images[index]} className={classes.images}/>
+                                              </a> : null
+                                              
+                                              // <img alt="The rest for now" src={Images[index]} className={classes.images}/> */}
                                           }
     
                                       </Box>

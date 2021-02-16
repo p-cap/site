@@ -7,7 +7,7 @@ import SpringBoot from '../assets/Springboot.svg';
 export const ProjectTitles =[
     "Data Structure and Algo" ,
     "Material-UI",
-    "Spring Boot",
+    "Spring",
     "Swift/UI"
 ]
 
